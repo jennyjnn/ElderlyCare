@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterHospitalActivity">
+
+    <include layout="@layout/bg_screen"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/BtnWhiteBlue"
+            android:text="เป็นผู้ป่วยของโรงพยาบาล"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@color/alphaWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+
+        <EditText
+            style="@style/TextRegular28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ชื่อ"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            style="@style/TextRegular28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="นามสกุล"
+            android:inputType="textPersonName" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ยืนยัน"
+            style="@style/BtnBlueWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

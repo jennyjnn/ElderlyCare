@@ -15,17 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="เป็นผู้ป่วยของโรงพยาบาล"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="180dp"
             android:layout_marginBottom="45dp"
-            style="@style/BtnWhiteBlue" />
+            style="@style/BtnWhiteBlue"
+            android:onClick="registerHospital"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ไม่ได้เป็นผู้ป่วยของโรงพยาบาล"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             style="@style/BtnWhiteBlue" />
     </LinearLayout>
 

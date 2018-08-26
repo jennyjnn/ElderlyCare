@@ -6,5 +6,6 @@
     <color name="colorBtnRed">#D31119</color>
     <color name="colorBtnBlueDark">#0072BB</color>
     <color name="colorBlue">#2699FB</color>
+    <color name="alphaWhite">#bcffffff</color>
 
 </resources>
