@@ -6,21 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/bg2"
-        android:scaleType="centerCrop"/>
+    <include layout="@layout/bg_screen" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/logo"
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"/>
+            android:layout_marginTop="70dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +35,8 @@
             android:text="ลงทะเบียน"
             style="@style/BtnHome"
             android:background="@color/colorBtnRed"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:onClick="register"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
